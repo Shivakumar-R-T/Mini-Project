@@ -1,0 +1,930 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    min-height: 1831px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 831px;
+}
+
+.head {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+
+.icons {
+    position: absolute;
+    width: 42px;
+    height: 28px;
+    left: 114.69px;
+    top: 73px;
+
+}
+
+.icon1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url(./Vector.png);
+}
+
+.icon2 {
+    position: absolute;
+    width: 39px;
+    height: 11px;
+    left: 162.69px;
+    top: 82px;
+
+    background: url(./Saloon.png);
+}
+
+.home {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    left: 670px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+    cursor: pointer;
+
+
+    color: #FBB034;
+}
+
+.aboutus {
+    position: absolute;
+    width: 71px;
+    height: 16px;
+    left: 767px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+    
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+.services {
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 888px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+  
+
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.contact {
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 1004px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+   
+
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.booknow {
+    position: absolute;
+    height: 52px;
+    width: 182px;
+    left: 1168px;
+    top: 53px;
+    cursor: pointer;
+    background: #FBB034;
+
+
+
+}
+
+.booknow span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 53px;
+    Font:
+        Poppins;
+    font-weight: 700;
+    Size:
+        15px;
+    Line-height:
+        15.98px;
+
+}
+
+
+.booknow:hover {
+    background: green;
+}
+
+.welc {
+    position: absolute;
+    width: 155px;
+    height: 17px;
+    left: 115px;
+    top: 342px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 106.5%;
+ 
+
+
+    color: #FBB034;
+}
+
+.best {
+    position: absolute;
+    width: 513px;
+    height: 90px;
+    left: 115px;
+    top: 381px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94.5%;
+    /* or 45px */
+
+
+    color: #FFFFFF;
+}
+
+.offers {
+    position: absolute;
+    width: 389px;
+    height: 66px;
+    left: 115px;
+    top: 493px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 106.5%;
+   
+
+
+    color: #9A9A9A;
+
+}
+
+.booknow2 {
+
+
+    position: absolute;
+    height: 52px;
+    width: 182px;
+    left: 115px;
+    top: 639px;
+    cursor: pointer;
+    background: #FBB034;
+}
+
+.booknow2 span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 53px;
+    Font:
+        Poppins;
+    font-weight: 700;
+    Size:
+        15px;
+    Line-height:
+        15.98px;
+
+}
+
+
+.booknow2:hover {
+    background: green;
+}
+
+.allserv {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 182px;
+    height: 53px;
+    left: 337px;
+    top: 639px;
+cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+
+.allserv span {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 45px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+
+
+
+    color: #FFFFFF;
+}
+.allserv:hover{
+    background:darkgrey;
+
+    
+}
+.img{
+    position: absolute;
+width: 720px;
+height: 625px;
+left: 720px;
+top: 206px;
+
+background:url(./image\ 2.png)
+}
+.logochop{
+    position: absolute;
+width: 47px;
+height: 42px;
+left:150px;
+top: 523px;
+background: url(./Choppers\ Logo\ White\ png\ \(1\)\ 2.png);
+}
+.weareopen{
+    position: absolute;
+width: 1440px;
+height: 676px;
+left: 0px;
+top: 831px;
+background: url(./WE\ ARE\ OPEN\ 1.png);
+}
+.openimg1{
+    position: absolute;
+width: 161px;
+height: 118px;
+left: 437px;
+top: 100px;
+background: url(./open.img1.png);
+}
+.openimg2
+{
+    position: absolute;
+width: 245px;
+height: 320px;
+left: 369px;
+top: 256px;
+
+background:#FFFFFF;
+border: 1px solid red;
+}
+.opimg2{
+    position: absolute;
+width: 214px;
+height: 292px;
+left: 15px;
+top: 14px;
+background: url(./open.img2.png);
+}
+
+.openimg3{
+    position: absolute;
+    width: 188px;
+    height: 282px;
+    left: 223px;
+    top: 100px;
+    background: url(./open.img3.png);
+    z-index: -1;
+}
+
+.about{
+    position: absolute;
+width: 70px;
+height: 19px;
+left: 767px;
+top: 155px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+
+
+color: #FBB034;
+}
+.aboutimg{
+    position: absolute;
+width: 223px;
+height: 60px;
+left: 609px;
+top: 196px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 94.5%;
+
+
+
+color: #EDEDED;
+z-index: -1;
+}
+.menscut{
+    position: absolute;
+width: 451px;
+height: 90px;
+left: 767px;
+top: 198px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 94.5%;
+/* or 45px */
+
+
+color: #000000;
+}
+
+.discr{
+    position: absolute;
+width: 401px;
+height: 57px;
+left: 767px;
+top: 301px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+
+
+
+color: #565656;
+}
+
+.read{
+    position: absolute;
+    height: 52px;
+    width: 182px;
+    left: 767px;
+    top: 401px;
+    cursor: pointer;
+    background: #FBB034;
+}
+.read span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 53px;
+    Font:
+        Poppins;
+    font-weight: 700;
+    Size:
+        15px;
+    Line-height:
+        15.98px;
+
+}
+
+
+.read:hover {
+    background:gray;
+}
+
+.appoint{
+    position: absolute;
+width: 1440px;
+height: 510px;
+left: 0px;
+top: 1507px;
+
+background: url(./apppoint.png);
+}
+
+.box{
+    position: absolute;
+width: 320px;
+height: 283px;
+left: 929px;
+top: 114px;
+
+background: #FFFFFF;
+}
+.callbox{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 110px;
+top: 69px;
+
+border-radius: 50%;
+background: #E8E8E8;
+}
+.callbox:hover{
+    background: rgb(84, 176, 84);
+}
+.cllogo{
+    position: absolute;
+    width: 30px;
+    height: 45px;
+
+top: 29px;
+left: 33px;
+
+z-index:+1;
+background:url(./calllLogo.png);
+
+}
+
+.callnow{
+    position: absolute;
+width: 90px;
+height: 19px;
+left: 115px;
+top: 172px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 94.5%;
+
+cursor: pointer;
+
+color: #B8B8B8;
+}
+.callnow:hover{
+    color: lightgreen;
+}
+.phnum{
+  
+
+
+position: absolute;
+width: 161px;
+height: 23px;
+left: 80px;
+top: 199px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 94.5%;
+cursor: pointer;
+
+
+color: #000000;
+}
+
+.booknow3{
+    position: absolute;
+width: 79px;
+height: 19px;
+left: 118px;
+top: 130px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+cursor: pointer;
+
+
+color: #FBB034;
+}
+.booknow3:hover{
+    color: green;
+}
+.appointment{
+
+
+
+position: absolute;
+width: 586px;
+height: 90px;
+left: 115px;
+top: 161px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 94.5%;
+
+
+
+color: #FFFFFF;
+}
+
+.getDisc{
+   
+
+
+position: absolute;
+width: 339px;
+height: 38px;
+left: 118px;
+top:279px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 94.5%;
+
+
+
+color: #B8B8B8;
+}
+
+.bookappoint{
+
+
+position: absolute;
+width: 251px;
+height: 52px;
+left: 118px;
+top: 345px;
+
+background: #FBB034;
+}
+
+.bookappoint span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 53px;
+    Font:
+        Poppins;
+    font-weight: 700;
+    Size:
+        15px;
+    Line-height:
+        15.98px;
+
+}
+
+.workday{
+    position: absolute;
+width: 1134px;
+height: 393px;
+left: 153px;
+top: 2107px;
+
+background: #FBB034;
+}
+.workimg{
+    position: absolute;
+width: 573px;
+height: 393px;
+left: 0px;
+top:0px;
+
+background: url(./workimg.png);
+}
+
+.work{
+    position: absolute;
+width: 300px;
+height: 68px;
+
+top:36px;
+right: 107px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 106.5%;
+
+
+
+color: rgba(236, 236, 236, 0.1);
+}
+
+.days{
+    position: absolute;
+    display: flex;
+width: 255px;
+height: 30px;
+
+top: 60px;
+right: 241px;
+
+
+}
+.days span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 94.5%;
+z-index: 1;
+
+
+
+color: #FFFFFF;
+}
+
+.week{
+ 
+
+
+position: absolute;
+width: 294px;
+height: 19px;
+
+top: 95px;
+right: 221px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+
+
+
+color: #000000;
+}
+
+.line1{
+    position: absolute;
+width: 367px;
+height: 0px;
+
+top: 169px;
+right: 148px;
+
+border: 1px dashed #000000;
+}
+
+.line2{
+    position: absolute;
+width: 367px;
+height: 0px;
+
+top: 232px;
+right: 148px;
+
+border: 1px dashed #000000;
+}
+
+.day1{
+    position: absolute;
+width: 68px;
+height: 15px;
+
+top: 149px;
+right: 447px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 94.5%;
+
+
+
+color: #FFFFFF;
+}
+
+.day2
+{
+    position: absolute;
+width: 53px;
+height: 15px;
+
+top: 210px;
+right: 462px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 94.5%;
+
+
+
+color: #FFFFFF;
+}
+
+.time1{
+    position: absolute;
+width: 85px;
+height: 12px;
+
+top:151px;
+right: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 94.5%;
+
+
+
+color: #000000;
+}
+
+.time2{
+    position: absolute;
+width: 85px;
+height: 12px;
+
+top:214px;
+right: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 94.5%;
+
+
+
+color: #000000;
+}
+
+.booknow4 {
+
+
+    position: absolute;
+    height: 52px;
+    width: 182px;
+   
+    top: 268px;
+    right: 349px;
+    cursor: pointer;
+    background: #FBB034;
+    border: 1px solid black;
+}
+
+.booknow4 span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 53px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106.5%;
+   
+    
+    
+    color: #000000;
+
+}
+
+
+.booknow4:hover {
+    background:grey;
+}
+
+.affiliate{
+    position: absolute;
+width: 1440px;
+height: 493px;
+left: 0px;
+top: 2505px;
+background: url(./affil.img);
+}
+.affiliate span.cls-1{
+    position: absolute;
+width: 58px;
+height: 19px;
+left: 690px;
+top:145px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+
+
+
+color: #FBB034;
+}
+span.cls-2{
+   
+
+
+position: absolute;
+width: 566px;
+height: 68px;
+left: 436px;
+top:180px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 94.5%;
+
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+span.cls-3{
+    
+    position: absolute;
+    width: 185px;
+    height: 52px;
+    left: 615px;
+    top: 298px;
+    background: transparent;
+  border: 1px solid   #FBB034;;
+}
+
+span.cls-3  span {
+    position: absolute;
+
+    width: Hug (76px);
+    height: Hug (16px);
+    top: 18px;
+    left: 43px;
+    Font:
+        Poppins;
+    font-weight: 700;
+    Size:
+        15px;
+    Line-height:
+        15.98px;
+        color: #FBB034;
+
+}
+
+
+.cls-3:hover {
+    background:gray;
+}
